@@ -30,7 +30,7 @@ st.pyplot(fig)
 # grouping
 grp = df.groupby('Cluster')
 for l,r in grp:
-	st.write(l)
+	st.write(f'Clustor Number {l}')
 	st.write('*************************************************************')
 	st.write(r)
 
